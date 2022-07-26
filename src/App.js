@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Counter } from "./components/Counter";
+import { Input } from "./components/Input";
+import { Toggle } from "./components/Toggle";
+import "./style/style.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="app w-50 mx-auto">
+        <Counter />
+        <Input />
+        <Toggle />
+      
+      </div>
+    </>
   );
 }
-
 export default App;
