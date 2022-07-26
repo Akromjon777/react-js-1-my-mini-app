@@ -5,6 +5,7 @@ import "./style/style.css";
 function App() {
   return (
     <>
+    <h1 className="text-center">My First Mini App From React.js</h1>
       <div className="app w-50 mx-auto">
         <Counter />
         <Input />
